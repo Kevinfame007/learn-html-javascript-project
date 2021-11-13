@@ -1,15 +1,26 @@
-// learn how to use Arrays in JavaScript
+// learn how to use method arrays in JavaScript
 
-// Array Literal (recommend use it)
-var myArr = [
-    "BMW",
-    "Ford",
-    "Honda"
+var fruits = [
+    "Banana",
+    "Orange",
+    "Apple",
+    "Mango"
 ];
 
-console.log(myArr.length);
+// document.getElementById("demo").innerHTML = fruits.toString();
 
-//  Array Constructor (no recommend don't use it)
-// var myArr2 = new Array("BMW","Ford","Honda");
+// document.getElementById("demo").innerHTML = fruits.join(" - ");
 
-// console.log(myArr2);
+// fruits.pop();
+// fruits.push("Kiwi");
+// fruits.shift();
+// fruits.unshift("Lemon");
+
+// fruits[0] = "Kiwi";
+
+// delete fruits[0];
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+fruits.splice(0, 2);
+
+console.log(fruits);
+
