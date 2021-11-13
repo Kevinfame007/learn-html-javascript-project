@@ -1,5 +1,5 @@
-function myFunction(value1, value2){
-    return value1 * value2;
+function changeBg() {
+    document.body.style.backgroundColor = "red";
 }
 
-console.log(myFunction(5, 5));
+// changeBg();
