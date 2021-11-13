@@ -1,8 +1,7 @@
-console.log("Hello, World");
+// first comments
 
-document.getElementById("text").innerHTML = "Suphanut Taengtoemphon";
+/*
 
-document.write("Hello Document Write");
+    second comments
 
-window.alert("Hello Alert Box");
-
+*/
