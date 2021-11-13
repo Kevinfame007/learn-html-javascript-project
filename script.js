@@ -1,19 +1,20 @@
-// create transfer temperature program
+// How to use JavaScript Objects
 
-function cToF(celsius) {
-    var cTemp = celsius;
-    var cToFahr = cTemp * 9 / 5 + 32;
-    var message = cTemp + "\xB0C is " + cToFahr + "\xB0F";
-    console.log(message);
-}
+// var myCar = {
+//     brand: "Ford",
+//     model: "1",
+//     color: "black"
+// };
 
-cToF(30);
+// console.log(myCar["brand"]);
 
-function fToC(fahrenheit) {
-    var fTemp = fahrenheit;
-    var fToCel = (fTemp - 32) * 5 / 9;
-    var message = fTemp + "\xB0F is " + fToCel + "\xB0C";
-    console.log(message);
-}
+var person = {
+    FirstName: "Suphanut",
+    LastName: "Taengtoemphon",
+    eyeColor: "black",
+    fullName: function() {
+        return this.FirstName + " " + this.LastName;
+    }
+};
 
-fToC(86);
+console.log(person.fullName());
