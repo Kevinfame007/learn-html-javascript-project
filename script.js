@@ -27,3 +27,18 @@
     -   underfined
 
 */
+
+var a = String(123);
+console.log(a);
+
+var b = Number(324);
+console.log(b);
+
+var c = String(Date());
+console.log(c);
+
+var d = Number(true);
+console.log(d);
+
+var e = Number(false);
+console.log(e);
