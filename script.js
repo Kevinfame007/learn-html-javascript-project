@@ -1,44 +1,26 @@
-// learn how to use Type conversions
+// learn JavaScript Scope
 
-/*
+//  local scope------------
+function myFunc() {
+    var myName = "Suphanut";
+    console.log(myName);
+}
 
-    JavaScript Data Types
+myFunc();
+//-------------------------
 
-    In JavaScript there are 5 different data types that can contain values;
+//  Global Scope-----------
+var myCar = "BMW";
 
-    -   string
-    -   number
-    -   boolean
-    -   object
-    -   function
+console.log(myCar);
+//-------------------------
 
-    There are 6 types of objects;
-    
-    -   Object
-    -   Date
-    -   Array
-    -   String
-    -   Number
-    -   Boolean
+//  Auto Global Scope------
+function myFunc2() {
+    fName = "Fame";
+}
 
-    And 2 data types that cannot contain values;
+myFunc2();
 
-    -   null
-    -   underfined
-
-*/
-
-var a = String(123);
-console.log(a);
-
-var b = Number(324);
-console.log(b);
-
-var c = String(Date());
-console.log(c);
-
-var d = Number(true);
-console.log(d);
-
-var e = Number(false);
-console.log(e);
+console.log(fName);
+//--------------------------
