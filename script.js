@@ -1,26 +1,14 @@
-// learn JavaScript Scope
+//  learn how to use JavaScript Hoisting
 
-//  local scope------------
-function myFunc() {
-    var myName = "Suphanut";
-    console.log(myName);
-}
+var y = 10; // Initialization // Hoisted
 
-myFunc();
-//-------------------------
+//x = 5;
 
-//  Global Scope-----------
-var myCar = "BMW";
+//console.log(x);
 
-console.log(myCar);
-//-------------------------
+console.log(y);
 
-//  Auto Global Scope------
-function myFunc2() {
-    fName = "Fame";
-}
+//var x; // declaration // Hoisted
 
-myFunc2();
 
-console.log(fName);
-//--------------------------
+
