@@ -1,16 +1,25 @@
-// learn how to use Data Types in JavaScript
+// learn how to use JavaScript Math Object
 
-// 7 Data Types in JavaScript
+Math.PI
+console.log(Math.PI);
 
-// Primative Type
-var myNum = 10; // Number
-var myString = "Suphanut"; //String
-var myTrue = true; //Boolean
-var myFalse = false; //Boolean
-var myNull = null; // Null
-var myUnderfined; // Undefined
+Math.round(4.5);
+console.log(Math.round(4.5));
 
-// Object Type
-var myObject = {}; // 
+Math.pow(5,5);
+console.log(Math.pow(5,5));
 
-// Type of Operators
+Math.sqrt(64);
+console.log(Math.sqrt(64));
+
+Math.abs(-4.5);
+console.log(Math.abs(-4.5));
+
+Math.ceil(4.5);
+console.log(Math.ceil(4.5));
+
+Math.floor(4.6);
+console.log(Math.floor(4.6));
+
+Math.floor(4.3);
+console.log(Math.floor(4.3));
