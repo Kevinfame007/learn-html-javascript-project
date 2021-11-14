@@ -1,14 +1,11 @@
-//  learn how to use JavaScript Hoisting
+//  learn how to use JavaScript Strict Mode
 
-var y = 10; // Initialization // Hoisted
+"use strict";
 
-//x = 5;
+var x = 5;
 
-//console.log(x);
+function myFunc() {
+   var  y = 10;
+}
 
-console.log(y);
-
-//var x; // declaration // Hoisted
-
-
-
+myFunc();
