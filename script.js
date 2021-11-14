@@ -1,53 +1,29 @@
-// learn how to use JavaScript For loop
+// learn how to use Type conversions
 
-// 1
-// for(var i = 0; i <= 5; i++) {
-//     console.log(i);
-// }
+/*
 
-// var cars = [
-//     "BMW",
-//     "Ford",
-//     "Honda",
-//     "Audi"
-// ];
+    JavaScript Data Types
 
-// for (var i = 0; i < cars.length; i++) {
-//     console.log(cars[i]);
-// }
+    In JavaScript there are 5 different data types that can contain values;
 
-//----------------------------------------------
-// 2
-// For in loop
+    -   string
+    -   number
+    -   boolean
+    -   object
+    -   function
 
-// var person = {
-//     fname: "Suphanut",
-//     lname: "Taengtoemphon",
-//     age: 23
-// };
+    There are 6 types of objects;
+    
+    -   Object
+    -   Date
+    -   Array
+    -   String
+    -   Number
+    -   Boolean
 
-// for (var x in person) {
-//     console.log(person[x]);
-// }
+    And 2 data types that cannot contain values;
 
-//-----------------------------------------------
-// 3
-// For of Loop
+    -   null
+    -   underfined
 
-var cars = [
-    "BMW",
-    "Ford",
-    "Honda",
-];
-
-for (var x of cars) {
-    console.log(x);
-}
-
-var myString = "JavaScript";
-
-var y;
-
-for (y of myString) {
-    console.log(y);
-}
+*/
