@@ -1,25 +1,15 @@
-// learn how to use JavaScript Math Object
+// learn how to use JavaScript if else
 
-Math.PI
-console.log(Math.PI);
+var time = 20;
 
-Math.round(4.5);
-console.log(Math.round(4.5));
+if (time < 12) {
+    console.log("Good Morning");
+}
 
-Math.pow(5,5);
-console.log(Math.pow(5,5));
+else if (time < 18) {
+    console.log("Good Afternoon");
+}
 
-Math.sqrt(64);
-console.log(Math.sqrt(64));
-
-Math.abs(-4.5);
-console.log(Math.abs(-4.5));
-
-Math.ceil(4.5);
-console.log(Math.ceil(4.5));
-
-Math.floor(4.6);
-console.log(Math.floor(4.6));
-
-Math.floor(4.3);
-console.log(Math.floor(4.3));
+else {
+    console.log("Good Evening");
+}
