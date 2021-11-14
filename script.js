@@ -1,16 +1,19 @@
-// learn how to use JavaScript Switch Case 2
+// learn how to use JavaScript For loop
 
-var myPhone = "Sumsung";
+// for(var i = 0; i <= 5; i++) {
+//     console.log(i);
+// }
 
-switch (myPhone) {
-    case "iPhone":
-        console.log("30000");
-        break;
-    case "Sumsung":
-        console.log("25000");
-        break;
+// var cars = [
+//     "BMW",
+//     "Ford",
+//     "Honda",
+//     "Audi"
+// ];
 
-    default:
-        console.log("We don't have phone.");
-        break;
-}
+// for (var i = 0; i < cars.length; i++) {
+//     console.log(cars[i]);
+// }
+
+//For in loop
+
