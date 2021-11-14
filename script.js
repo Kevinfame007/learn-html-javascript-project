@@ -1,12 +1,16 @@
-// learn how to use Array method slice in JavaScript
+// learn how to use Data Types in JavaScript
 
-// var arr1 = ["value1", "value2"];
-// // var arr2 = arr1.concat(["value3", "value4", "value5"]);
-// var arr2 = ["value3", "value4", "value5"];
-// var arr3 = ["value6", "value7"];
+// 7 Data Types in JavaScript
 
-// var concatArr = arr1.concat(arr2, arr3);
+// Primative Type
+var myNum = 10; // Number
+var myString = "Suphanut"; //String
+var myTrue = true; //Boolean
+var myFalse = false; //Boolean
+var myNull = null; // Null
+var myUnderfined; // Undefined
 
-var arr1 = ["value1", "value2", "value3", "value4", "value5"];
+// Object Type
+var myObject = {}; // 
 
-var myNewArr = arr1.slice(1, 3);
+// Type of Operators
