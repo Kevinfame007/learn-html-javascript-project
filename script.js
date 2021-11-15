@@ -1,23 +1,28 @@
-//  learn how to use JavaScript Class
+//  learn how to use JavaScript Class Inheritance
 
 // ES6 ECMAScript 2015 Class
 
-class myClass {
-    constructor(name) {
-        this.myName = name;
+class Car {
+    constructor(brand) {
+        this.carname = brand;
     }
 
-    fullName (greeting) {
-        return greeting + " My name is " + this.myName;
-    }
-
-    static hello(name) {
-        return "Hello " + name;
+    present() {
+        return "I have a " + this.carname;
     }
 }
 
-var person = new myClass("fame");
+class Model extends Car {
+    constructor(brand, model) {
+        super(brand);
+        this.model = model;
+    }
 
-console.log(person.fullName("Hello"));
+    show() {
+        return this.present() + ", it's a " + this.model;
+    }
+}
 
-console.log(myClass.hello("fame"));
+var myCar = new Model("Ford", "Mustang");
+
+console.log(myCar.show());
