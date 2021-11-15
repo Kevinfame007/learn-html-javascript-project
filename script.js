@@ -1,28 +1,29 @@
-//  learn how to use JavaScript Class Inheritance
+//  learn how to use JavaScript Style Guide
 
-// ES6 ECMAScript 2015 Class
+var firstName = "Suphanut"; // camelCase
 
-class Car {
-    constructor(brand) {
-        this.carname = brand;
-    }
+var x = y + z;
 
-    present() {
-        return "I have a " + this.carname;
-    }
+var myArr = ["value1", "value2", "value3"];
+
+var person = {
+    firstName: "Suphanut",
+    lastName: "Taengtoemphon",
+    eyeColor: "black"
+};
+
+var i = 0;
+
+for (i = 0; i < 10; i++) {
+    console.log(i);    
 }
 
-class Model extends Car {
-    constructor(brand, model) {
-        super(brand);
-        this.model = model;
-    }
+var time = 5;
 
-    show() {
-        return this.present() + ", it's a " + this.model;
-    }
+if (time < 20) {
+    console.log("Good Day");
 }
 
-var myCar = new Model("Ford", "Mustang");
-
-console.log(myCar.show());
+else {
+    console.log("Good Evening");
+}
