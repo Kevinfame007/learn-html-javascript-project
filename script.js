@@ -1,17 +1,29 @@
-//  learn how to use Var & Let & Const Keyword
+//  learn how to use Var & Let & Const Scope
 
 // ES6 let & const
 
-var x = 5;
-var x = 6;
+var x = 10;
+
+{
+    var x = 5;
+}
 
 console.log(x);
 
-let y = 6;
-y = 7;
+let y = 10;
+
+{
+    let y = 15;
+    console.log(y);
+}
 
 console.log(y);
 
-const z = 9;
+const z = 5;
+
+{
+    const z = 10;
+    console.log(z);
+}
 
 console.log(z);
