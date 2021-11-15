@@ -1,13 +1,19 @@
-//  learn how to use Template String
+//  learn how to use Arrow Function
 
-var myName = "Suphanut";
+// ES6 Arrow function
 
-console.log("Hi, My Name is " + myName + " nice to meet you.");
+// Function Expression
+// var hello = function() {
+//     return "Hello World";
+// }
 
-console.log(`Hi, My Name is ${myName} nice to meet you`);
+// Function Declaration
+// function hello() {
+    
+// }
 
-function myFunc(name) {
-    console.log(`Hi, my name is ${name}`);
-}
+// Arrow Function
+var hello = () => "Hello World";
 
-myFunc("Suphanut");
+console.log(hello());
+
