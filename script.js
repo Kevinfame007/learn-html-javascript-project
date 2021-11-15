@@ -1,4 +1,4 @@
-//  learn how to use Arrow Function
+//  learn how to use Arrow Function With Parameters
 
 // ES6 Arrow function
 
@@ -13,7 +13,12 @@
 // }
 
 // Arrow Function
-var hello = () => "Hello World";
+var hello = value => "Hello " + value;
 
-console.log(hello());
+console.log(hello("fame"));
 
+// function hello(Parameters) {
+    
+// }
+
+// hello(argument);
