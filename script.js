@@ -1,29 +1,13 @@
-//  learn how to use Var & Let & Const Scope
+//  learn how to use Template String
 
-// ES6 let & const
+var myName = "Suphanut";
 
-var x = 10;
+console.log("Hi, My Name is " + myName + " nice to meet you.");
 
-{
-    var x = 5;
+console.log(`Hi, My Name is ${myName} nice to meet you`);
+
+function myFunc(name) {
+    console.log(`Hi, my name is ${name}`);
 }
 
-console.log(x);
-
-let y = 10;
-
-{
-    let y = 15;
-    console.log(y);
-}
-
-console.log(y);
-
-const z = 5;
-
-{
-    const z = 10;
-    console.log(z);
-}
-
-console.log(z);
+myFunc("Suphanut");
