@@ -1,32 +1,17 @@
-//  learn how to use This Keyword
+//  learn how to use Var & Let & Const Keyword
 
-// 1 ------------------------------------------------------
-// var person = {
-//     firstname: "Suphanut",
-//     lastName: "Taengtoemphon",
-//     fullName: function() {
-//         return this.firstname + " " + this.lastName;
-//     }
-// }
+// ES6 let & const
 
-// console.log(person.fullName());
-//---------------------------------------------------------
+var x = 5;
+var x = 6;
 
+console.log(x);
 
-// 2 ------------------------------------------------------
-// console.log(this);
-//---------------------------------------------------------
+let y = 6;
+y = 7;
 
+console.log(y);
 
-// 3 ------------------------------------------------------
-// "use strict";
+const z = 9;
 
-// function myFunc() {
-//     return this;
-// }
-
-// console.log(myFunc());
-//---------------------------------------------------------
-
-
-// 4 ------------------------------------------------------
+console.log(z);
