@@ -1,11 +1,32 @@
-//  learn how to use JavaScript Strict Mode
+//  learn how to use This Keyword
 
-"use strict";
+// 1 ------------------------------------------------------
+// var person = {
+//     firstname: "Suphanut",
+//     lastName: "Taengtoemphon",
+//     fullName: function() {
+//         return this.firstname + " " + this.lastName;
+//     }
+// }
 
-var x = 5;
+// console.log(person.fullName());
+//---------------------------------------------------------
 
-function myFunc() {
-   var  y = 10;
-}
 
-myFunc();
+// 2 ------------------------------------------------------
+// console.log(this);
+//---------------------------------------------------------
+
+
+// 3 ------------------------------------------------------
+// "use strict";
+
+// function myFunc() {
+//     return this;
+// }
+
+// console.log(myFunc());
+//---------------------------------------------------------
+
+
+// 4 ------------------------------------------------------
