@@ -1,24 +1,23 @@
-//  learn how to use Arrow Function With Parameters
+//  learn how to use JavaScript Class
 
-// ES6 Arrow function
+// ES6 ECMAScript 2015 Class
 
-// Function Expression
-// var hello = function() {
-//     return "Hello World";
-// }
+class myClass {
+    constructor(name) {
+        this.myName = name;
+    }
 
-// Function Declaration
-// function hello() {
-    
-// }
+    fullName (greeting) {
+        return greeting + " My name is " + this.myName;
+    }
 
-// Arrow Function
-var hello = value => "Hello " + value;
+    static hello(name) {
+        return "Hello " + name;
+    }
+}
 
-console.log(hello("fame"));
+var person = new myClass("fame");
 
-// function hello(Parameters) {
-    
-// }
+console.log(person.fullName("Hello"));
 
-// hello(argument);
+console.log(myClass.hello("fame"));
