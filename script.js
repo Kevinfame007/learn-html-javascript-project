@@ -1,4 +1,4 @@
-//  learn how to use Var & Let & Const Scope
+//  learn how to use template 
 
 // ES6 let & const
 
